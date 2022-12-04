@@ -1,0 +1,124 @@
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        border: none;
+    }
+
+    :root{
+        font-size: 62.5%;
+
+
+        --darkpurple-fc: #3F3D56;
+        --main-fc:#828282;
+
+    }
+    
+    body{
+        background-color: rgb(235, 233, 233);
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        position: relative;
+        max-height: 90vh;
+    }
+
+    .centerImg{
+        display: flex;
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+        padding-top: 6.4rem;
+        margin-bottom: 3.2rem;
+    }
+
+    #mainContent h1{
+        font-family: 'Dosis', sans-serif;
+        font-weight: 500;
+        font-size: 3.2rem;
+        line-height: 4rem;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-bottom: 1.6rem;
+    }
+
+    strong{ 
+        color: #EE24FF !important; 
+        font-family: 'Dosis', sans-serif;
+        font-weight: 700 !important;
+        font-size: 3.2rem !important;
+        line-height: 4rem !important;
+        letter-spacing: 0em !important;
+        text-align: center !important;
+        margin-bottom: 1.6rem !important;
+    } 
+
+    #centerTxt{
+        width: 54rem;
+        height: 107px;
+        margin: auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 1rem;
+    }
+
+    #centerTxt p{
+        font-weight: 400;
+        font-size: 1.5rem;
+        line-height: 2.2rem;
+        color: var(--main-fc);
+    }
+
+    .negrito{
+        color: var(--darkpurple-fc);
+    }
+
+    p a{
+        text-decoration: none;
+        color: var(--main-fc);
+    }
+
+    #mainContent :last-child{
+        color: var(--main-fc);
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 2rem;
+        text-align: center;
+        margin: 0 auto 6.4rem;
+    }
+
+    #line{
+        width: 39.1rem;
+       border: 0.2px solid #CDCDCD;
+       margin: 0 auto;
+    }
+
+    #txtFinal {
+        display: flex;
+        gap: 4.2rem;
+        justify-content: center;
+        align-items: center;
+        border-top: 1.6rem;
+        color: var(--darkpurple-fc);
+        font-size: 1.5rem;
+    }
+    #txtFinal a{
+        color: var(--darkpurple-fc);
+    }
+
+    #waves{
+        position: absolute;
+        width: fit-content;
+        left: 0;
+        right: 0;
+    }
+
+
+
+
+
+
+
+    
